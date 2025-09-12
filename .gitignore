@@ -1,0 +1,60 @@
+# ==========================
+# AMBIENTE PYTHON
+# ==========================
+venv/
+env/
+.venv/
+
+# ==========================
+# CHAVES E ARQUIVOS SENSÍVEIS
+# ==========================
+.env
+*.env
+*.key
+*.pem
+*.p12
+*.crt
+
+# ==========================
+# CACHES E LOGS
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache/
+.mypy_cache/
+coverage/
+*.coverage
+
+# ==========================
+# SISTEMA / EDITOR
+# ==========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==========================
+# FRONT-END (caso use)
+# ==========================
+node_modules/
+dist/
+build/
+
+# ==========================
+# ARQUIVOS PESSOAIS
+# ==========================
+server/static/files/curriculo_alexmenezes.pdf
+
+# ==========================
+# OPCIONAIS (descomente se usar)
+# ==========================
+# *.sqlite3
+# *.db
+# instance/
+# .tox/
+# coverage/

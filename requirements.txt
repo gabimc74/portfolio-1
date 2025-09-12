@@ -1,0 +1,43 @@
+# ===== DEPENDÊNCIAS DO PROJETO =====
+
+# Framework web minimalista e flexível, usado para criar a aplicação e gerenciar rotas
+flask
+
+# Biblioteca para carregar variáveis de ambiente definidas no arquivo .env
+python-dotenv
+
+# Biblioteca para facilitar o desenvolvimento de aplicações web com Flask
+flask-cors
+
+# ===== DEPENDÊNCIAS DE DESENVOLVIMENTO =====
+
+# Ferramenta para recarregar automaticamente o servidor durante o desenvolvimento   
+flask-reloader
+# Ferramenta para verificar problemas de segurança em dependências Python
+safety
+# Ferramenta para verificar problemas de segurança em dependências Python
+bandit
+# Ferramenta para verificar problemas de estilo e qualidade de código em Python
+flake8
+# Ferramenta para formatar automaticamente o código Python
+black
+# Ferramenta para gerenciar ambientes virtuais e dependências em Python
+pipenv
+# Ferramenta para criar e gerenciar ambientes virtuais em Python
+virtualenv
+# Ferramenta para criar e gerenciar ambientes virtuais em Python
+virtualenvwrapper
+# Ferramenta para criar e gerenciar ambientes virtuais em Python
+pip-tools
+# Ferramenta para criar e gerenciar ambientes virtuais em Python
+poetry
+# Ferramenta para criar e gerenciar ambientes virtuais em Python
+tox
+# Ferramenta para criar e gerenciar ambientes virtuais em Python
+pre-commit
+# Ferramenta para criar e gerenciar ambientes virtuais em Python
+isort
+# Ferramenta para criar e gerenciar ambientes virtuais em Python
+mypy
+# Ferramenta para criar e gerenciar ambientes virtuais em Python
+pylint

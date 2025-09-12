@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- ===== CONFIGURAÇÕES INICIAIS ===== -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== META TAGS PARA SEO ===== -->
+  <meta property="og:title" content="Portfólio">
+  <meta property="og:description" content="Dev">
+  <meta property="og:image" content="{{ url_for('static', filename='images/home.png') }}">
+  <meta property="og:type" content="website">
+
+  <!-- ===== TÍTULO ===== -->
+  <title>Alex Menezes Portfolio</title>
+
+  <!-- ===== ESTILOS ===== -->
+  <!-- Biblioteca de ícones -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <!-- Favicon personalizado -->
+  <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
+</head>
+
+<body>
+
+  <!-- ===== SEÇÃO: HEADER ===== -->
+  <header class="header">
+    <!-- Logo apenas o nome-->
+    <!-- <a href="#" class="logo">@alexssmenezes</a> -->
+
+    <!-- Logotipo imagem -->
+    <a href="#" class="logo">
+      <img src="../static/images/logo.png" alt="Alex Menezes">
+    </a>
+
+    <!-- Ícone menu mobile -->
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+      <a href="#home" class="active">Início</a>
+      <a href="#about">Sobre</a>
+      <a href="#services">Habilidades</a>
+      <a href="#portfolio">Projetos</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
+  <!-- ===== FIM DA SEÇÃO: HEADER ===== -->
+
+  <!-- ===== SEÇÃO: HOME ===== -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Olá, meu nome é</h3>
+      <h1>Alex Menezes</h1>
+      <h3>Sou <span class="multiple-text"></span></h3>
+      <p>Possuo mais de 10 anos de experiência na área de Tecnologia.<br>Explore alguns dos meus trabalhos e projetos.
+      </p>
+
+      <!-- Redes sociais -->
+      <div class="social-media">
+        <a href="https://www.instagram.com/alexmenezes.br" aria-label="Instagram" target="_blank"
+          rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.facebook.com/alexssmenezes.br" aria-label="Facebook" target="_blank"
+          rel="noopener noreferrer"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.linkedin.com/in/alexssmenezes" aria-label="LinkedIn" target="_blank"
+          rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/alexssmenezes" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-github'></i></a>
+      </div>
+
+      <!-- Botão download CV -->
+      <a href="{{ url_for('static', filename='files/curriculo_alexmenezes.pdf') }}" target="_blank"
+        rel="noopener noreferrer" class="btn">Download CV</a>
+    </div>
+
+    <!-- Imagem de apresentação -->
+    <div class="home-img">
+      <img src="{{ url_for('static', filename='images/home.png') }}" alt="Imagem de apresentação" loading="lazy">
+    </div>
+  </section>
+  <!-- ===== FIM DA SEÇÃO: HOME ===== -->
+
+  <!-- ===== SEÇÃO: SOBRE ===== -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="{{ url_for('static', filename='images/about.png') }}" alt="Imagem sobre mim" loading="lazy" />
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">Sobre <span>mim</span></h2>
+      <h3>Analista de Soluções à Sistemas</h3>
+      <p>Possuo mais de 10 anos de experiências, em suporte especializado e soluções ao cliente (B2B e B2C), ofereço suporte técnico e consultivo de forma humanizada. Tenho habilidades com análises de logs, reports em insights
+        e KPIs, expertise em fluxo de negócios, criação de manuais e procedimentos consultivos, atuo de forma colaborativa e ágil,
+        focado em soluções e suporte aos negócios.</p>
+      <a href="https://www.linkedin.com/in/alexssmenezes" target="_blank" rel="noopener noreferrer" class="btn">Saiba
+        mais</a>
+    </div>
+  </section>
+  <!-- ===== FIM DA SEÇÃO: SOBRE ===== -->
+
+  <!-- ===== SEÇÃO: HABILIDADES ===== -->
+  <section class="services" id="services">
+    <h2 class="heading">Minhas <span>Habilidades</span></h2>
+
+    <div class="services-container">
+      <!-- Habilidade 1 -->
+      <div class="services-box">
+        <i class='bx bx-support'></i>
+        <h3>Suporte à Sistemas</h3>
+        <p>Tenho mais de 10 anos de experiência em suporte à Sistemas. Atuei em grandes empresas de soluções
+          tecnológicas. Minha missão é atuar com agilidade e eficiência aos negócios.</p>
+        <a href="https://www.linkedin.com/in/alexssmenezes" target="_blank" rel="noopener noreferrer" class="btn">Saiba
+          mais</a>
+      </div>
+
+      <!-- Habilidade 2 -->
+      <div class="services-box">
+        <i class='bx bx-line-chart'></i>
+        <h3>Análises de Dados</h3>
+        <p>Possuo experiência em análises de dados e reports gerenciais. Desenvolvimento de relatórios e insights para tomada de decisões. Tenho
+          habilidades com criação Dashboards e KPIs.</p>
+        <a href="https://www.linkedin.com/in/alexssmenezes" target="_blank" rel="noopener noreferrer" class="btn">Saiba
+          mais</a>
+      </div>
+
+      <!-- Habilidade 3 -->
+      <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Desenvolvimento Web</h3>
+        <p>Possuo experiência em desenvolvimento web. Tenho habilidades com manutenção de códigos, criação de sites e
+          sistemas personalizados. Implementação e otimização de interfaces.</p>
+        <a href="https://www.linkedin.com/in/alexssmenezes" target="_blank" rel="noopener noreferrer" class="btn">Saiba
+          mais</a>
+      </div>
+    </div>
+  </section>
+  <!-- ===== FIM DA SEÇÃO: HABILIDADES ===== -->
+
+  <!-- ===== SEÇÃO: PORTFÓLIO ===== -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Projetos <span>Pessoais</span></h2>
+
+    <div class="portfolio-container">
+      <!-- Exemplo de projeto 1 -->
+      <div class="portfolio-box">
+        <img src="{{ url_for('static', filename='images/portfolio-1.jpg') }}" alt="Projeto 1" loading="lazy">
+        <div class="portfolio-layer">
+          <h4>CAPTUBE</h4>
+          <p>Confira em meu repositório no GitHub.</p>
+          <a href="https://github.com/alexssmenezes/captube" target="_blank" rel="noopener noreferrer" aria-label="."><i
+              class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      
+      <!-- Exemplo de projeto 2 -->
+      <div class="portfolio-box">
+        <img src="{{ url_for('static', filename='images/portfolio-2.jpg') }}" alt="Projeto 1" loading="lazy">
+        <div class="portfolio-layer">
+          <h4>LIMPA DADOS</h4>
+          <p>Confira em meu repositório no GitHub.</p>
+          <a href="https://github.com/alexssmenezes/limpeza_dados" target="_blank" rel="noopener noreferrer" aria-label="."><i
+              class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <!-- Exemplo de projeto 3 -->
+      <div class="portfolio-box">
+        <img src="{{ url_for('static', filename='images/portfolio-3.jpg') }}" alt="Projeto 1" loading="lazy">
+        <div class="portfolio-layer">
+          <h4>MUSIC PLAYER</h4>
+          <p>Confira em meu repositório no GitHub.</p>
+          <a href="https://github.com/alexssmenezes/musicplayer" target="_blank" rel="noopener noreferrer" aria-label="."><i
+              class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <!-- Exemplo de projeto 4 -->
+      <div class="portfolio-box">
+        <img src="{{ url_for('static', filename='images/portfolio-4.jpg') }}" alt="Projeto 1" loading="lazy">
+        <div class="portfolio-layer">
+          <h4>Pokedex</h4>
+          <p>Confira em meu repositório no GitHub.</p>
+          <a href="https://github.com/alexssmenezes/pokedex" target="_blank" rel="noopener noreferrer" aria-label="."><i
+              class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <!-- Exemplo de projeto 5 -->
+      <div class="portfolio-box">
+        <img src="{{ url_for('static', filename='images/portfolio-5.jpg') }}" alt="Projeto 1" loading="lazy">
+        <div class="portfolio-layer">
+          <h4>Portfólio 1</h4>
+          <p>Confira em meu repositório no GitHub.</p>
+          <a href="https://github.com/alexssmenezes/portfolio-1" target="_blank" rel="noopener noreferrer" aria-label="."><i
+              class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <!-- Exemplo de projeto 6 -->
+      <div class="portfolio-box">
+        <img src="{{ url_for('static', filename='images/portfolio-6.jpg') }}" alt="Projeto 1" loading="lazy">
+        <div class="portfolio-layer">
+          <h4>Em breve</h4>
+          <p>Projeto em processo de ajustes para publicação.</p>
+          <a href="https://www.linkedin.com/in/alexssmenezes" target="_blank" rel="noopener noreferrer" aria-label="."><i
+              class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== FIM DA SEÇÃO: PORTFÓLIO ===== -->
+
+  <!-- ===== SEÇÃO: CONTATO ===== -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Envie sua <span>Mensagem</span></h2>
+
+    <!-- Formulário de contato -->
+    <form id="contactForm" method="POST" >
+      <div class="input-box">
+        <input type="text" id="name" name="name" placeholder="Nome Completo" required>
+        <input type="email" id="email" name="email" placeholder="Seu Email" required>
+      </div>
+      <div class="input-box">
+        <input type="tel" id="phone" name="phone" placeholder="Número do Celular" required>
+        <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+      </div>
+      <textarea id="message" name="message" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+      <input type="submit" value="Enviar Mensagem" class="btn">
+    </form>
+
+    <!-- Mensagem de resposta -->
+    <p id="responseMsg">
+      <span class="icon"></span>
+      <span class="text"></span>
+    </p>
+  </section>
+  <!-- ===== FIM DA SEÇÃO: CONTATO ===== -->
+
+  <!-- ===== SEÇÃO: RODAPÉ ===== -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2025 Alex Menezes | Todos os direitos reservados.</p>
+    </div>
+
+    <!-- ===== SEÇÃO: BOTÃO VOLTAR AO TOPO ===== -->
+    <div class="footer-iconTop">
+      <a href="#home" aria-label="Voltar ao topo"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+  <!-- ===== Fim do Rodapé ===== -->
+
+  <!-- ===== SEÇÃO: BIBLIOTECAS JS EXTERNAS ===== -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- ===== SEÇÃO: SCRIPTS PERSONALIZADOS ===== -->
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+
+</html>
